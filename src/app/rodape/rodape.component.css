@@ -1,0 +1,17 @@
+.footerbackground {
+  height: 190px;
+  background: rgba(131, 130, 130, 0.3);
+  background: url(../../assets/img/background.png) no-repeat;
+}
+
+.direita2 {
+  margin-left: 850px;
+}
+
+.direita {
+  margin-top: 132px;
+}
+
+img {
+  padding-right: 10px;
+}
