@@ -1,0 +1,14 @@
+<div class="tamanho">
+  <h4>Olá, bem vindo a minha página!</h4>
+  <p>Aqui você fará a busca por ID a partir de um ENTER </p>
+  <label>Digite o Id: </label>
+  <input type="number" id="txtId" [(ngModel)]="id" (keyup)="onkeyup($event)">
+  <div *ngIf="post.id != 0">
+    userId: {{post.userId}} <br /> id: {{post.id}} <br /> title: {{post.title}} <br /> body: {{post.body}} <br />
+  </div>
+  <!-- <button class="btn btn-primary testebt" onclick="funciona()">Enviar </button> -->
+</div>
+<hr>
+<h2>Veja o vídeo da abertura para sua diversão: </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v4w6lUIFMX8" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
