@@ -1,0 +1,27 @@
+<h2>Consumo de API, exibido em uma tabela</h2>
+<table>
+  <tr>
+    <th>
+      Id do usuário:
+    </th>
+    <th>
+      Id:
+    </th>
+    <th>
+      Título:
+    </th>
+    <th>
+      Texto:
+    </th>
+  </tr>
+  <tr *ngFor="let item of posts">
+    <td>{{item.userId}}</td>
+    <td>{{item.id}}</td>
+    <td>{{item.title}}</td>
+    <td>{{item.body}}</td>
+  </tr>
+</table>
+<br>
+<!-- <div *ngIf="posts != null">
+  Quantidade de Posts: {{getLength()}}
+</div>-->
